@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End Reset*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-family: avenir;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.container {
+  background-color: #dadada;
+	display: block;
+  margin: 0 auto;
+	position: relative;
+  width: 100%;
+}
+
+.service {
+
+}
+
+.sketch{
+
+}
+
+.wifi {
+
+}
+
+.time {
+
+}
+
+.blue_tooth {
+
+}
+
+.percent_battery {
+
+}
+
+.battery {
+}
+
+nav {
+  color: #ffffff;
+  background-color: #007AFF;
+  font-size: 1.8em;
+	display: block;
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: absolute;
+  width: 378px;
+  height: 22%;
+}
+
+.arrow-left {
+  float: left;
+  font-size: 1.2em;
+  padding: 5% 0 1% 4%;
+}
+
+.title {
+  float: left;
+  padding: 5.8% 0% 50% 30%;
+}
+
+.edit {
+  float: right;
+  padding: 5.8% 5%
+}
+
+.directions {
+  color: #ffffff;
+  font-size: 1.1em;
+  font-weight: 450;
+  float: left;
+  padding: 18% 0 1% 4%;
+  position: absolute;
+}
+
+#smaller {
+  font-size: .6em;
+  font-weight: normal
+}
+
+.preview {
+	display: block;
+	height: 300px;
+	position: absolute;
+  width: 378px;
+}
+
+.map {
+	background-image: url(../images/map.png);
+  background-size: cover;
+  background-position: left;
+}
+
+.next_bus
