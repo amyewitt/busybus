@@ -57,97 +57,185 @@ body {
   background-color: #dadada;
   font-family: avenir;
   font-size: 10px;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .container {
-  background-color: #dadada;
+  background-color: #ffffff;
 	display: block;
   margin: 0 auto;
 	position: relative;
-  width: 100%;
+  width: 375px;
 }
 
-.service {
-
-}
-
-.sketch{
-
-}
-
-.wifi {
-
-}
-
-.time {
-
-}
-
-.blue_tooth {
-
-}
-
-.percent_battery {
-
-}
-
-.battery {
+.top {
+	height: 462px;
+	background-color: #ffffff;
+	position: fixed;
+	z-index: 99
 }
 
 nav {
   color: #ffffff;
   background-color: #007AFF;
   font-size: 1.8em;
+	line-height: 1.3;
 	display: block;
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: absolute;
-  width: 378px;
-  height: 22%;
+  padding: 0px;
+  position: fixed;
+  width: 375px;
+  height: 130px;
+	z-index: 99
+}
+
+.ios {
+	margin-left: 2%;
+	float: left;
+	position: absolute;
 }
 
 .arrow-left {
   float: left;
-  font-size: 1.2em;
-  padding: 5% 0 1% 4%;
+  padding: 8% 6%;
 }
 
 .title {
   float: left;
-  padding: 5.8% 0% 50% 30%;
+  padding: 8% 0% 50% 26%;
 }
 
 .edit {
   float: right;
-  padding: 5.8% 5%
+  padding: 8% 6%
 }
 
 .directions {
   color: #ffffff;
   font-size: 1.1em;
-  font-weight: 450;
+  font-weight: 500;
   float: left;
-  padding: 18% 0 1% 4%;
+  padding: 18.5% 0 1% 6%;
   position: absolute;
 }
 
 #smaller {
-  font-size: .6em;
+  font-size: .7em;
   font-weight: normal
 }
 
 .preview {
-	display: block;
-	height: 300px;
-	position: absolute;
-  width: 378px;
+	height: 412px;
+	position: fixed;
+  width: 375px;
 }
 
 .map {
-	background-image: url(../images/map.png);
-  background-size: cover;
-  background-position: left;
+	background-color: #ffffff;
 }
 
-.next_bus
+.next_bus {
+  background-color: #ffffff;
+	border-bottom: 1px solid #d3d3d3;
+	position: fixed;
+	line-height: 1.6;
+	margin-top: 382px;
+	height: 80px;
+	width: 375px;
+}
+
+.bus_image {
+	position: absolute;
+	padding: 4.5% 6%;
+}
+
+#alert {
+	float: right;
+	padding: 7% 6% 0 0 ;
+}
+
+#arriving_bus {
+	float: center;
+  padding: 4.5% 0 0 22%;
+	font-weight: 500;
+	font-size: 1.9em;
+}
+
+#details {
+	font-size: .7em;
+	font-weight: normal;
+}
+
+.list {
+	background-color: #ffffff;
+	padding-top: 462px;
+	z-index: 1
+}
+
+#button {
+	position: fixed;
+	z-index: 90;
+	padding-top: 164px;
+	padding-left: 117px
+}
+
+.list-buses {
+	color: black;
+	font-size: 1.5em;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d3d3d3;
+  display: inline-block;
+	margin-left: 10px;
+  width: 355px;
+	height: 40px;
+}
+
+.number {
+	top: 15px;
+	margin-left:10px;
+	position: relative;
+}
+
+.mine {
+	font-weight: 600;
+}
+
+.where_to {
+  margin-left: 80px;
+	position: absolute;
+}
+
+.time_left {
+	margin-right: 10px;
+	float: right;
+	position: relative;
+}
+
+.resume {
+	font-size: .7em;
+	margin-top: 2px;
+}
+
+.reroute {
+	color: #595959;
+	font-size: 1.5em;
+	font-style:italic;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d3d3d3;
+	display: inline-block;
+	margin-left: 10px;
+	width: 355px;
+	height: 40px;
+}
+
+.exclamation {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 43px;
+}
+
+.ex {
+	position: absolute;
+	margin-top: 11px;
+	margin-left: 43px;
+}
